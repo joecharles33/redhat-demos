@@ -1,1 +1,4 @@
 aws-redhat-lab/
+# AWS credentials (local only)
+.aws_creds
+
