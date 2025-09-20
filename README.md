@@ -27,7 +27,7 @@ Both RHEL and Ansible Automation Platform require entitlements. For development 
 
 Get RHEL (Developer Subscription)
 
-Create a Red Hat account with your company's enail and join the Red Hat Developer Program. 
+Create a Red Hat account with your company's email and join the Red Hat Developer Program. 
 
 https://developers.redhat.com/
 
