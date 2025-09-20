@@ -5,7 +5,7 @@ The environment is designed for **quick spin-up demos, PoCs, and personal develo
 
 ---
 
-## 🚀 What You Get
+## What You Get
 - **Networking (VPC)** with public/private subnets, NAT, and IGW
 - **Compute**:
   - Bastion host (jump box with SSH + SSM)
@@ -19,7 +19,38 @@ The environment is designed for **quick spin-up demos, PoCs, and personal develo
 
 ---
 
-## 🛠 Prerequisites
+## Prerequisites
+
+Red Hat Subscriptions (RHEL + Ansible Trials)
+
+Both RHEL and Ansible Automation Platform require entitlements. For development and PoCs you can use Red Hat Developer subscriptions and trial licenses.
+
+Get RHEL (Developer Subscription)
+
+Create a Red Hat account with your company's enail and join the Red Hat Developer Program. 
+
+https://developers.redhat.com/
+
+Download RHEL images/ISOs or use AWS Marketplace AMIs provided under your developer subscription.
+
+## Register RHEL instances:
+
+```sudo subscription-manager register --username "<redhat-username>" --password "<redhat-password>"
+sudo subscription-manager attach --auto
+```
+
+## Get Ansible Automation Platform (Trial License)
+
+Visit the AAP Trial Page
+ and click Start my trial.
+
+Sign in with your Red Hat account and request a trial.
+
+Download the installer bundle and license key from your trial success page / email.
+
+Use this license during the AAP install playbooks.
+
+
 
 1. **AWS Account**
    - Create an IAM user (e.g. `devops-admin`) with **programmatic access**
