@@ -77,21 +77,6 @@ Use this license during the AAP install playbooks.
 
 ---
 
-## 📂 Repository Layout
-aws-redhat-lab/
-├── terraform/
-│ ├── root/ # main Terraform entrypoint
-│ ├── modules/ # reusable modules (network, compute, etc.)
-│ └── envs/dev/ # environment-specific variables
-├── ansible/
-│ ├── inventories/ # host/group inventories
-│ ├── playbooks/ # install + demo playbooks
-│ └── roles/ # reusable Ansible roles
-├── ee/ # execution environment definitions
-└── .github/workflows/ # CI/CD pipelines
-
----
-
 ## ⚡ Step-by-Step Setup
 
 ### 1. Configure AWS CLI
