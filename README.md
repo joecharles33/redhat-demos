@@ -1,4 +1,4 @@
-ok# AWS Red Hat Lab Environment
+## AWS Red Hat Lab Environment
 
 This repo contains Infrastructure-as-Code (IaC) and automation playbooks to build a **Red Hat Automation Platform (AAP) lab** on AWS.  
 The environment is designed for **quick spin-up demos, PoCs, and personal development** — and can be torn down just as quickly to save costs.  
