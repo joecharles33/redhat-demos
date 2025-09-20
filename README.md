@@ -42,8 +42,7 @@ sudo subscription-manager attach --auto
 
 ## Get Ansible Automation Platform (Trial License)
 
-Visit the AAP Trial Page
- and click Start my trial.
+Visit the AAP Trial Page https://www.redhat.com/en/technologies/management/ansible and click Start my trial.
 
 Sign in with your Red Hat account and request a trial.
 
