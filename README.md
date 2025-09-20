@@ -21,7 +21,7 @@ The environment is designed for **quick spin-up demos, PoCs, and personal develo
 
 ## Prerequisites
 
-Red Hat Subscriptions (RHEL + Ansible Trials)
+## Red Hat Subscriptions (RHEL + Ansible Trials)
 
 Both RHEL and Ansible Automation Platform require entitlements. For development and PoCs you can use Red Hat Developer subscriptions and trial licenses.
 
@@ -35,7 +35,8 @@ Download RHEL images/ISOs or use AWS Marketplace AMIs provided under your develo
 
 ## Register RHEL instances:
 
-```sudo subscription-manager register --username "<redhat-username>" --password "<redhat-password>"
+```
+sudo subscription-manager register --username "<redhat-username>" --password "<redhat-password>"
 sudo subscription-manager attach --auto
 ```
 
