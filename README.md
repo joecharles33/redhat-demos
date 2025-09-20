@@ -52,18 +52,18 @@ Use this license during the AAP install playbooks.
 
 
 
-1. **AWS Account**
+## AWS Account
    - Create an IAM user (e.g. `devops-admin`) with **programmatic access**
    - Attach `AdministratorAccess` for now (restrict later)
 
-2. **Local Tools**
+## Local Tools
    - AWS CLI
    - Terraform (>= 1.7)
    - Ansible (>= 2.16)
    - Git
    - (Optional) Podman or Docker for Execution Environments
 
-3. **Terraform Remote State**
+## Terraform Remote State
    - One-time setup in AWS:
      ```bash
      aws s3 mb s3://a3-redhat-lab-tfstate-dev --region us-east-1
