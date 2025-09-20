@@ -1,0 +1,23 @@
+plugin: amazon.aws.aws_ec2
+regions:
+  - us-east-1
+
+# Only running instances that belong to this lab
+filters:
+  instance-state-name: running
+  "tag:Project": "a3-redhat-lab-dev"
+
+# Use the private IP by default (we SSH from bastion/inside VPC)
+hostnames:
+  - private-ip-address
+
+# Build groups based on Role tag (Role_aap-controller, Role_rhel-target, etc.)
+keyed_groups:
+  - key: tags.Role
+    prefix: role
+    separator: "_"
+
+# Set convenient host vars (you can override per group later)
+compose:
+  ansible_host: private_ip_address
+
