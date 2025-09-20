@@ -1,3 +1,12 @@
 # AWS credentials (local only)
 .aws_creds
 
+
+# big binaries
+*.zip
+*.tar
+*.tgz
+*.gz
+*.iso
+*.mp4
+*.mov
