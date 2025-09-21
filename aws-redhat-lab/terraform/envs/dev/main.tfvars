@@ -10,7 +10,7 @@ instance_counts = {
   bastion      = 1
   aap_ctrl     = 1
   aap_hub      = 1
-  aap_eda      = 0 # set 1 later if you want
+  aap_eda      = 1
   rhel_targets = 2
   win_targets  = 2
 }
